@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Juegos - Completa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-left">
+            <span class="social-links">
+                <a href="#">[Icono FB]</a>
+                <a href="#">[Icono TW]</a>
+                <a href="#">[Icono YT]</a>
+            </span>
+            <div class="main-nav">
+                <a href="#" class="logo">GAMINGLOGO</a>
+                <nav>
+                    <a href="#">NEWS</a>
+                    <a href="#">STORE</a>
+                    <a href="#">ESPORTS</a>
+                    <a href="#">SUPPORT</a>
+                    <a href="#">XBOX GAME PASS</a>
+                </nav>
+            </div>
+        </div>
+        <div class="header-right">
+            <span class="user-info">
+                <a href="#">[Icono] LOGIN</a>
+            </span>
+            <button class="download-btn">DOWNLOAD NOW</button>
+        </div>
+    </header>
+
+    <main class="hero-section">
+        <div class="hero-content">
+            <h1 class="welcome-text">WELCOME <br> HOME</h1>
+            <p>VERDANSK RETURNS TO CALL OF DUTY: WARZONE WITH ITS FAMILIAR SIGHTS ALONGSIDE...</p>
+            <div class="app-buttons">
+                <button class="store-btn">Google Play</button>
+                <button class="store-btn">App Store</button>
+            </div>
+        </div>
+    </main>
+
+    <section class="platforms-grid">
+        <div class="platform-item">
+            <div class="platform-icon">[Icono]</div>
+            <div class="platform-info">
+                <p>PC</p>
+                <a href="#">VIEW GAMES</a>
+            </div>
+        </div>
+        <div class="platform-item">
+            <div class="platform-icon">[Icono]</div>
+            <div class="platform-info">
+                <p>MOBILE</p>
+                <a href="#">VIEW GAMES</a>
+            </div>
+        </div>
+        <div class="platform-item">
+            <div class="platform-icon">[Icono]</div>
+            <div class="platform-info">
+                <p>XBOX</p>
+                <a href="#">VIEW GAMES</a>
+            </div>
+        </div>
+        <div class="platform-item">
+            <div class="platform-icon">[Icono]</div>
+            <div class="platform-info">
+                <p>PS4</p>
+                <a href="#">VIEW GAMES</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="games-grid">
+        <div class="game-card">
+            <img src="https://via.placeholder.com/200x150.png?text=Game+1" alt="Game 1">
+            <div class="card-content">
+                <h4>SPACE WARS</h4>
+                <p>Aliquam erat volutpat. Nam nec nulla tincidunt...</p>
+                <span class="price">FREE</span>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="https://via.placeholder.com/200x150.png?text=Game+2" alt="Game 2">
+            <div class="card-content">
+                <h4>RETURN OF THE CARS</h4>
+                <p>Pellentesque ac mi in nulla iaculis accumsan...</p>
+                <span class="price">FREE</span>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="https://via.placeholder.com/200x150.png?text=Game+3" alt="Game 3">
+            <div class="card-content">
+                <h4>PLANES OF GLORIA</h4>
+                <p>Curabitur at nunc id tellus auctor...</p>
+                <span class="price">FREE</span>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="https://via.placeholder.com/200x150.png?text=Game+4" alt="Game 4">
+            <div class="card-content">
+                <h4>EARTH WARS</h4>
+                <p>Vestibulum ante ipsum primis in faucibus...</p>
+                <span class="price">FREE</span>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="https://via.placeholder.com/200x150.png?text=Game+5" alt="Game 5">
+            <div class="card-content">
+                <h4>THE WARRIOR 3</h4>
+                <p>Ut id nisl in lectus consequat facilisis...</p>
+                <span class="price">FREE</span>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="https://via.placeholder.com/200x150.png?text=Game+6" alt="Game 6">
+            <div class="card-content">
+                <h4>LIFE AND STRUGGLE</h4>
+                <p>Mauris nec erat id justo sollicitudin...</p>
+                <span class="price">FREE</span>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="https://via.placeholder.com/200x150.png?text=Game+7" alt="Game 7">
+            <div class="card-content">
+                <h4>GLORIA SOCCER</h4>
+                <p>Quisque non risus non velit dapibus...</p>
+                <span class="price">FREE</span>
+            </div>
+        </div>
+        <div class="game-card">
+            <img src="https://via.placeholder.com/200x150.png?text=Game+8" alt="Game 8">
+            <div class="card-content">
+                <h4>EGYPT AND WORLD</h4>
+                <p>Donec consequat nulla a mi aliquam...</p>
+                <span class="price">FREE</span>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">
+            <p>ALL GAMES</p>
+        </div>
+        <div class="giveaway-cards">
+            <div class="giveaway-card">
+                <div class="card-image">[Imagen de personaje]</div>
+                <div class="card-text">
+                    <h3>FREE GIVEAWAY</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+            </div>
+            <div class="giveaway-card">
+                <div class="card-image">[Imagen de personaje]</div>
+                <div class="card-text">
+                    <h3>FREE GIVEAWAY</h3>
+                    <p>Lorem ipsum dolor sit amet...</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
